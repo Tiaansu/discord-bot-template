@@ -1,0 +1,6 @@
+{
+    "watch": ["src"],
+    "ext": "ts,json",
+    "ignore": ["dist", "node_modules", "archive"],
+    "exec": "npx ts-node -r tsconfig-paths/register src/Index.ts"
+}
